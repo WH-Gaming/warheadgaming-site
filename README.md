@@ -12,13 +12,11 @@ folder goes online as-is.
 | `bastion-budget-privacy.html` | https://warheadgaming.net/bastion-budget-privacy.html |
 | `privacy.html` | https://warheadgaming.net/privacy.html |
 | `404.html` | shown for any address that doesn't exist |
-| `bastion-budget/`, `bastion-budget-privacy/`, `privacy/` | tiny pages that forward the short addresses (like `/bastion-budget-privacy`) to the real pages, so either form works |
-| `assets/` | styles, script, fonts and images |
+| everything else | styles (`site.css`), script (`site.js`), fonts (`.woff2`) and images, all kept at the top level so the site uploads without folders |
 
 For the Microsoft Store listing:
 
 - **Privacy policy URL:** `https://warheadgaming.net/bastion-budget-privacy.html`
-  (the short form `https://warheadgaming.net/bastion-budget-privacy` also works)
 - **Website:** `https://warheadgaming.net/bastion-budget.html`
 - **Support contact:** `support@warheadgaming.net`
 
@@ -90,7 +88,7 @@ replace images. DigitalOcean redeploys automatically within a couple of minutes.
 
 ## Add a new game or app
 
-1. Put its art in `assets/img/`. 16:9 images work best; WebP keeps them small.
+1. Upload its art next to the other images. 16:9 images work best; WebP keeps them small.
    An app with only a square icon can use the `card-art icon-art` style, like Bastion Budget.
 2. In `index.html`, find the comment that starts `ADD A NEW GAME OR APP`.
 3. Copy one whole `<article class="card" ...>` … `</article>` block and paste it
@@ -108,7 +106,7 @@ chat or purchases collects things Bastion doesn't) and link it from `privacy.htm
 ## Bastion Budget screenshots
 
 The Bastion page and card are set up to show app screenshots, but the screenshot
-files aren't in this copy. To turn them back on, add these to `assets/img/`
+files aren't in this copy. To turn them back on, upload these
 (1600 × 1000, WebP):
 
 - `bastion-overview.webp` (dashboard)
