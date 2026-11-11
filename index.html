@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>WarHead Gaming</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="WarHead Gaming is a one-person indie studio making dark, gritty games, useful apps and merch, including Shadow Syndicates, Monster Blaster, Gravemoor and Bastion Budget.">
+<meta name="theme-color" content="#0E0E10">
+<link rel="canonical" href="https://warheadgaming.net/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="WarHead Gaming">
+<meta property="og:description" content="Indie games, apps and merch, built from the fallout.">
+<meta property="og:url" content="https://warheadgaming.net/">
+<meta property="og:image" content="https://warheadgaming.net/assets/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/bebas-neue-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="WarHead Gaming home"><img src="assets/img/warhead-wordmark.webp" alt="WarHead Gaming" width="360" height="229"></a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="#lineup-section">Games &amp; Apps</a>
+      <a href="#studio">Studio</a>
+      <a href="#community">Community</a>
+      <a href="#merch">Merch</a>
+      <a href="#contact">Contact</a>
+      <a href="https://discord.gg/GQj4bkHvJ" rel="noopener">Discord</a>
+      <a class="btn btn-red" href="https://warhead-gaming-shop.fourthwall.com" rel="noopener">Shop merch</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Indie studio · Games · Apps · Merch</span>
+        <h1>Games, apps and gear <em>built from the fallout.</em></h1>
+        <p class="lead">WarHead Gaming is a one-person studio. We make dark, gritty games with crime empires, monster hunts and horror that bites back, apps that do one job well, and merch to wear the brand. Bastion Budget is headed to the Microsoft Store, and everything is coming to iPhone and Android.</p>
+        <div class="btn-row">
+          <a class="btn btn-red" href="#lineup-section">See everything we make</a>
+          <a class="btn btn-ghost" href="#merch">Shop merch</a>
+          <a class="btn btn-ghost" href="https://discord.gg/GQj4bkHvJ" rel="noopener">Join the Discord</a>
+        </div>
+      </div>
+      <img class="hero-emblem" src="assets/img/warhead-emblem.webp" alt="WarHead Gaming emblem: a skull in a gas mask over a radiation symbol" width="560" height="574">
+    </div>
+  </section>
+
+  <div class="strip" aria-label="Our titles">
+    <div class="wrap">
+      <ul>
+        <li><img src="assets/img/shadow-syndicates-logo.webp" alt="Shadow Syndicates" width="640" height="259" loading="lazy"></li>
+        <li><img src="assets/img/monster-blaster-logo.webp" alt="Monster Blaster" width="640" height="320" loading="lazy"></li>
+        <li><img src="assets/img/gravemoor-logo.webp" alt="Gravemoor" width="640" height="169" loading="lazy"></li>
+        <li class="app-mark"><img src="assets/img/bastion-icon.webp" alt="" width="256" height="256" loading="lazy">Bastion Budget</li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="section" id="lineup-section" aria-labelledby="lineup-title">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">The lineup</span>
+          <h2 class="section-title" id="lineup-title">Games &amp; apps</h2>
+        </div>
+        <div class="filters" id="filters"></div>
+      </div>
+
+      <!--
+        ADD A NEW GAME OR APP: copy one <article class="card"> ... </article> block,
+        paste it just above the "Next drop" card, and change the details.
+          data-type   = "game" or "app"
+          data-status = "out" (Out now), "review" (Awaiting store approval), "soon" (Coming soon), "dev" (In development), "later" (Coming later)
+          style="--accent: #......"  = the card's color
+        Put the art in assets/img/ (16:9 works best) and match the badge text to data-status.
+      -->
+      <div class="grid" id="lineup">
+
+        <article class="card" data-type="game" data-status="soon" style="--accent: #FF4A3D">
+          <div class="card-art"><img src="assets/img/shadow-syndicates-art.webp" alt="Shadow Syndicates key art: three mobsters in hats under a red moon" width="1200" height="675" loading="lazy"></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="badge">Coming soon</span><span class="kind">Game · Crime RPG</span></div>
+            <h3>Shadow Syndicates</h3>
+            <p>Rise through the underworld of Verano. Run crimes, build a crew, join a clan and fight for control of the city.</p>
+            <ul class="feats">
+              <li>80 crimes and 40 missions</li>
+              <li>Clan wars across 7 war types</li>
+              <li>Six territories, three syndicates</li>
+              <li>Gym, Casino, Bank and live chat</li>
+            </ul>
+            <div class="card-foot"><span class="platform">iPhone &amp; Android</span><a class="btn" href="https://discord.gg/GQj4bkHvJ" rel="noopener">Follow on Discord</a></div>
+          </div>
+        </article>
+
+        <article class="card" data-type="game" data-status="soon" style="--accent: #FF9A2E">
+          <div class="card-art"><img src="assets/img/monster-blaster-art.webp" alt="Monster Blaster key art: a hunter firing at a crowd of monsters in a graveyard" width="1200" height="675" loading="lazy"></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="badge">Coming soon</span><span class="kind">Game · Platform shooter</span></div>
+            <h3>Monster Blaster</h3>
+            <p>Run, jump and blast through world after world of monsters as one of six gothic monster hunters.</p>
+            <ul class="feats">
+              <li>Classic side-scrolling action</li>
+              <li>6 playable hunters</li>
+              <li>Hidden areas, coins and checkpoints</li>
+              <li>Worlds 1–2 free, one $1.99 unlock for the rest</li>
+            </ul>
+            <div class="card-foot"><span class="platform">iPhone &amp; Android</span><a class="btn" href="https://discord.gg/GQj4bkHvJ" rel="noopener">Follow on Discord</a></div>
+          </div>
+        </article>
+
+        <article class="card" data-type="game" data-status="soon" style="--accent: #7FD957">
+          <div class="card-art"><img src="assets/img/gravemoor-art.webp" alt="Gravemoor key art: a hooded skull rising from a thorny graveyard" width="1200" height="675" loading="lazy"></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="badge">Coming soon</span><span class="kind">Game · Top-down horror RPG</span></div>
+            <h3>Gravemoor</h3>
+            <p>Play as Silas Vane, a hunter in a cursed land. A darker take on classic adventure games, with a grim sense of humor.</p>
+            <ul class="feats">
+              <li>Five areas to explore</li>
+              <li>Hunter’s Board bounties</li>
+              <li>Crafting and gathering</li>
+              <li>Multiple endings</li>
+            </ul>
+            <div class="card-foot"><span class="platform">iPhone &amp; Android</span><a class="btn" href="https://discord.gg/GQj4bkHvJ" rel="noopener">Follow on Discord</a></div>
+          </div>
+        </article>
+
+        <article class="card" data-type="app" data-status="review" style="--accent: #2FC79F">
+          <div class="card-art icon-art"><img src="assets/img/bastion-icon.webp" alt="" width="256" height="256" loading="lazy"><span>Bastion Budget</span></div>
+          <div class="card-body">
+            <div class="card-meta"><span class="badge">Awaiting store approval</span><span class="kind">App · Personal budget</span></div>
+            <h3>Bastion Budget</h3>
+            <p>Plan bills, paychecks and savings, and see what’s safe to spend before payday. Your data stays on your device: no account, no bank login, no tracking.</p>
+            <ul class="feats">
+              <li>Safe to spend, counted from what’s scheduled</li>
+              <li>Bills that record themselves on the due date</li>
+              <li>Import bank files (CSV, OFX, QFX, QIF)</li>
+              <li>15-day free trial, then $14.99 once. No subscription</li>
+            </ul>
+            <div class="card-foot"><span class="platform">Windows first · iPhone &amp; Android soon</span><a class="btn" href="bastion-budget.html">See Bastion Budget</a></div>
+          </div>
+        </article>
+
+        <article class="card slot">
+          <h3>Next drop</h3>
+          <p>More games and apps are on the way. Join the Discord to hear first.</p>
+          <a class="btn btn-ghost" href="https://discord.gg/GQj4bkHvJ" rel="noopener">Join the Discord</a>
+        </article>
+      </div>
+      <p class="empty" id="lineup-empty" hidden>Nothing matches those filters yet. Try “Everything”.</p>
+    </div>
+  </section>
+
+  <section class="section alt" id="studio" aria-labelledby="studio-title">
+    <div class="wrap studio">
+      <div>
+        <span class="eyebrow">The studio</span>
+        <h2 class="section-title" id="studio-title">One dev.<br>No compromises.</h2>
+        <div class="facts">
+          <div><b>3</b><span>games coming to iPhone &amp; Android</span></div>
+          <div><b>1</b><span>app awaiting Microsoft Store approval</span></div>
+          <div><b>1</b><span>person behind all of it</span></div>
+          <div><b>1</b><span>Discord for everything</span></div>
+        </div>
+      </div>
+      <div class="copy">
+        <p>WarHead Gaming is run by a solo creator who writes, designs and codes everything we release. That includes the games and the worlds behind them, from the crime-soaked city of Verano to the haunted lands of Gravemoor.</p>
+        <p>The apps get the same care. Bastion Budget is a budget for people who want their money data on their own device and nowhere else. It works offline and doesn’t ask for a bank login.</p>
+        <p>Everything we make is shaped by the people who use it. Feedback from the Discord goes straight into the next update.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section merch" id="merch" aria-labelledby="merch-title">
+    <div class="wrap merch-grid">
+      <img src="assets/img/warhead-wordmark.webp" alt="" width="360" height="229" loading="lazy">
+      <div>
+        <span class="eyebrow">Merch</span>
+        <h2 class="section-title" id="merch-title">Wear the WarHead.</h2>
+        <p class="lead" style="margin-top:16px">Official WarHead Gaming merch. Every order helps keep a one-person studio building.</p>
+        <div class="btn-row" style="margin-top:28px"><a class="btn btn-red" href="https://warhead-gaming-shop.fourthwall.com" rel="noopener">Shop the merch store</a></div>
+        <p class="note">Opens our store on Fourthwall.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="community" aria-labelledby="community-title">
+    <div class="wrap">
+      <span class="eyebrow">Community</span>
+      <h2 class="section-title" id="community-title" style="margin-bottom:40px">Find us out there</h2>
+      <div class="tiles">
+        <div class="tile">
+          <h3><img src="assets/img/discord.svg" alt="" width="28" height="28">Join the Discord</h3>
+          <p>The WarHead Gaming server, with every game and app in one place. Chat, report bugs and shape what comes next.</p>
+          <a class="btn btn-red" href="https://discord.gg/GQj4bkHvJ" rel="noopener">Join the Discord</a>
+        </div>
+        <div class="tile">
+          <h3><img src="assets/img/itchio.svg" alt="" width="28" height="28">WarHead on itch.io</h3>
+          <p>Follow the studio for news and release updates.</p>
+          <a class="btn btn-ghost" href="https://warheadgaming.itch.io/" rel="noopener">Follow on itch.io</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <span class="eyebrow">Contact</span>
+      <h2 class="section-title" id="contact-title" style="margin-bottom:40px">Get in touch</h2>
+      <div class="tiles">
+        <div class="tile">
+          <h3>Support</h3>
+          <p>Help with our games and apps: accounts, bugs, payments and Bastion Budget.</p>
+          <a class="email" href="mailto:support@warheadgaming.net">support@warheadgaming.net</a>
+          <button class="copy-btn" type="button" data-copy="support@warheadgaming.net" hidden>Copy address</button>
+        </div>
+        <div class="tile">
+          <h3>General</h3>
+          <p>Questions, feedback and press.</p>
+          <a class="email" href="mailto:contact@warheadgaming.net">contact@warheadgaming.net</a>
+          <button class="copy-btn" type="button" data-copy="contact@warheadgaming.net" hidden>Copy address</button>
+        </div>
+        <div class="tile">
+          <h3>The developer</h3>
+          <p>Business and collaborations, straight to WarHead.</p>
+          <a class="email" href="mailto:warhead@warheadgaming.net">warhead@warheadgaming.net</a>
+          <button class="copy-btn" type="button" data-copy="warhead@warheadgaming.net" hidden>Copy address</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 WarHead Gaming · All Rights Reserved</span>
+    <nav aria-label="Footer">
+      <a href="bastion-budget.html">Bastion Budget</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="bastion-budget-privacy.html">Bastion Budget privacy</a>
+      <a href="https://warhead-gaming-shop.fourthwall.com" rel="noopener">Merch</a>
+      <a href="https://discord.gg/GQj4bkHvJ" rel="noopener">Discord</a>
+      <a href="https://warheadgaming.itch.io/" rel="noopener">itch.io</a>
+    </nav>
+  </div>
+</footer>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
